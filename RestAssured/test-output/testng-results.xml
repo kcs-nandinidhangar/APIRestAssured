@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T17:59:45 IST" name="Default suite" finished-at="2022-09-30T18:00:15 IST" duration-ms="29645">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T17:59:45 IST" name="Default test" finished-at="2022-09-30T18:00:15 IST" duration-ms="29645">
+      <class name="restassured.test.TestGetCTI">
+        <test-method signature="get_CARA_Response(java.lang.String)[pri:0, instance:restassured.test.TestGetCTI@76908cc0]" started-at="2022-09-30T17:59:46 IST" name="get_CARA_Response" data-provider="getCRMTestData" finished-at="2022-09-30T18:00:07 IST" duration-ms="21200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$filter=CustomerPhoneNumber  eq '5684068310' ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_CARA_Response -->
+        <test-method signature="get_CDP_Response(java.lang.String)[pri:0, instance:restassured.test.TestGetCTI@76908cc0]" started-at="2022-09-30T18:00:07 IST" name="get_CDP_Response" data-provider="getCRMTestData" finished-at="2022-09-30T18:00:15 IST" duration-ms="7216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[$filter=CustomerPhoneNumber  eq '5684068310' ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_CDP_Response -->
+      </class> <!-- restassured.test.TestGetCTI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
